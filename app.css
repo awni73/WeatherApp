@@ -13,44 +13,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container {
-    width: 50%;
-    background-color: white;
-    align-self: center;
-    display: block;
-    margin: 100px auto;
-    border-radius: 10px;
-    padding-bottom: 50px;
-    box-shadow: 5px 10px 20px deepskyblue;
-}
-.input{
-    text-align: center;
-    margin: 100px auto;
-  }
-input[type="submit"]{
-    padding: 15px 30px;
-    background: #e7e7e7;
-    border: none;
-    border-radius: 1px;
-    font-family: "Nunito",sans-serif;
-    font-weight:bold;
-    font-size: 20px;
-}
-.input input[type="text"]{
-    width: 600px;
-    height: 55px;
-    padding: 5px 10px;
-    background: #e7e7e7;
-    border: none;
-    border-radius: 1px;
-    font-family: "Nunito",sans-serif;
-    font-weight:bold;
-    font-size: 20px;
-  }
+
 .app-title {
     width: 100%;
     height: 150px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,92 +27,80 @@ input[type="submit"]{
     text-align: center;
     padding: 15px;
     margin: 0 auto;
-    font-size: 2em;
+    font-size: 5em;
     color: #333;
 }
-#search {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    width: 40%;
-    height: 20px;
-    border-radius: 5px;
-    outline: none;
-    border: 3px solid deepskyblue;
+.name {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-.notification {
-    background-color: white;
-    display: none;
-}
-.notification p {
-    color: red;
-    font-size: 1.2em;
-    margin: 0;
+.name p {
     text-align: center;
-    padding: 10px 0;
-}
-.weather-container {
-    width: 100%;
-    height: 260px;
-    background-color: white;
-    margin-top: 20px;
-}
-.weather-icon {
-    width: 100%;
-    height: 128px;
-}
-.weather-icon img {
-    display: block;
+    padding: 15px;
     margin: 0 auto;
+    font-size: 1em;
+    color: #333;
 }
-.location-icon {
-    width: 100%;
-    height: 40px;
-    padding: 10px;
-}
-.location-icon img {
-    display: block;
-    width: 32px;
-    margin: 10px auto;
-    cursor: pointer;
-    padding: 5px;
-    border: deepskyblue solid 2px;
-    border-radius: 10px;
-    color: deepskyblue;
-}
-.temperature-value {
-    width: 100%;
-    height: 60px;
-    
-}
-.temperature-value p {
-    padding: 0;
-    margin: 0;
-    color: #293251;
-    font-size: 4em;
+.input{
     text-align: center;
-}
-.temperature-value span {
-    color: #293251;
-    font-size: 0.5em;
-}
-.temperature-description p {
+    margin: 100px auto;
+  }
+  
+input[type="submit"]{
+    color: darkslateblue;
+    padding: 15px 30px;
+    background: white;
+    border: none;
+    border-radius: 1px;
+    font-family:  "Poppins";
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+.input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: white;
+    border: none;
+    border-radius: 1px;
+    font-family:  "Poppins";
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+.card{
+    width: 50%;
+    background: white;
+    height: 35vh;
+    margin: 50px auto;
+    border-radius: 2px;
     padding: 8px;
-    margin: 0;
-    color: #293251;
+    color: darkslateblue;
     text-align: center;
     font-size: 2em;
+  }
+  
+  
+.close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
 }
-.location p {
-    margin: 0;
-    padding: 0;
-    color: #293251;
+  
+.card h1{
+    padding: 0px 0;
     text-align: center;
-    font-size: 1em;
 }
-div.relative {
-    position: absolute;
-    top: 600px;
-    right: 120px;
+  
+.card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:45px;
 }

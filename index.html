@@ -1,41 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="app.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenWeatherMap Api</title>
+  <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <div class="container">
-        <div class='app-title'>
-            <p>Weather App</p>
-            <input
-            id='search'
-            type='text'
-            placeholder="Enter a city"
-            autocomplete="off" />
-            <div class="location-icon">
-        <img src="Icons/location.png" alt="">
+    <div class='app-title'>
+        <p>Weather App</p>
     </div>
-</div>
-
-<div class="notification"></div>
-
-<div class="weather-container">
-        
-        <div class="temperature-value">
-            <p>- * <span></span></p>
-        </div>
-        <div class='temperature-description'>
-            <p>-</p>
-        </div>
-        <div class="location">
-            <p>-</p>
-        </div>
+    <div class='name'>
+        <p>by: Omar Alshafei</p>
     </div>
-</div>
+        <div class="input">
+      <input type="text" placeholder="Enter the city" class="input_text">
+      <input type="submit" value="Submit" class="submit">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h1 class="name" id="name"></h1>
+      <p class="temp"></p>
+      <p class="clouds"></p>
+      <p class="desc"></p>
+    </div>
+  </div>
 <script src="app.js"></script>
 </body>
 </html>
