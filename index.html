@@ -5,18 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel=""stylesheet" href="app.css"  />
+    <link rel="stylesheet" href="app.css" />
 </head>
 <body>
     <div class="container">
         <div class='app-title'>
-            <p> weather info</p>
+            <p>Weather App</p>
             <input
             id='search'
             type='text'
-            placeholder="Enter the city"
-            autocomplete="off"  />
+            placeholder="Enter a city"
+            autocomplete="off" />
+            <div class="location-icon">
+        <img src="Icons/location.png" alt="">
+    </div>
+</div>
+
+<div class="notification"></div>
+
+<div class="weather-container">
+        
+        <div class="temperature-value">
+            <p>- * <span></span></p>
+        </div>
+        <div class='temperature-description'>
+            <p>-</p>
+        </div>
+        <div class="location">
+            <p>-</p>
         </div>
     </div>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
