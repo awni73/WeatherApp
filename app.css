@@ -13,7 +13,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .app-title {
     width: 100%;
     height: 150px;
@@ -48,9 +47,8 @@ body {
 }
 .input{
     text-align: center;
-    margin: 100px auto;
-  }
-  
+    margin: 75px auto;
+}
 input[type="submit"]{
     color: darkslateblue;
     padding: 15px 30px;
@@ -58,10 +56,8 @@ input[type="submit"]{
     border: none;
     border-radius: 1px;
     font-family:  "Poppins";
-    font-weight:bold;
     font-size: 20px;
-  }
-  
+}
 .input input[type="text"]{
     width: 600px;
     height: 55px;
@@ -69,11 +65,11 @@ input[type="submit"]{
     background: white;
     border: none;
     border-radius: 1px;
+    color: darkslateblue;
     font-family:  "Poppins";
     font-weight:bold;
     font-size: 20px;
-  }
-  
+}
 .card{
     width: 50%;
     background: white;
@@ -84,21 +80,17 @@ input[type="submit"]{
     color: darkslateblue;
     text-align: center;
     font-size: 2em;
-  }
-  
-  
+}
 .close{
     float: right;
     margin-top: -2px;
     cursor: pointer;
     margin-right: 20px;
 }
-  
 .card h1{
     padding: 0px 0;
     text-align: center;
 }
-  
 .card p{
     text-align: center;
     margin:40px 0;
